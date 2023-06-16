@@ -7,13 +7,7 @@
 #include <util/delay.h>
 #include <string.h>
 
-/*int main(void)
-{
-	DDRA=0x07;
-	DDRB=0xff;
-    
-    while (1) 
-    {
+/* ----------------SOME COMMANDS-----------------
 	   PORTB= 0x38;        //commands are sent to data pins
 	   PORTA &=~ (1<<RS);  //RS is low
 	   PORTA &=~ (1<<RW);  //RW is low
@@ -77,8 +71,6 @@
 	   _delay_ms(10);
 	   PORTA &=~ (1<<EN);  //En is low
 	   	   
-    }
-}
 */
 //functions 
 void lcd_cmd(char cmd);
